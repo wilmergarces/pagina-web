@@ -3,40 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Página Web</title>
-    <link rel="stylesheet" href="estilos.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Portafolio Personal</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Estilos del contenedor principal */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Estilos para la cabecera */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Sección de biografía */
+        .biography {
+            background-color: #fff;
+            padding: 30px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .biography h2 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        .biography p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        /* Estilo de los enlaces */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
+
     <header>
-        <h1>Bienvenidos a mi página web</h1>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#acerca">Acerca de</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+        <h1>Hola, soy [Tu Nombre]</h1>
     </header>
 
-    <section id="inicio">
-        <h2>Bienvenidos</h2>
-        <p>Este es el comienzo de mi página web. ¡Espero que te guste!</p>
-    </section>
+    <div class="container">
+        <section class="biography">
+            <h2>Mi Biografía</h2>
+            <p>Hola, mi nombre es **[Tu Nombre]** y soy un apasionado de **[tu área de especialización]**. 
+            Con más de **[X años]** de experiencia, me he especializado en crear soluciones digitales para 
+            **[tu campo]**. Mi objetivo es ayudar a mis clientes a lograr **[lo que ofreces, ej. crear una presencia en línea impactante]**.</p>
 
-    <section id="acerca">
-        <h2>Acerca de mí</h2>
-        <p>Aquí hablaré sobre mí y mis intereses.</p>
-    </section>
+            <p>Me encanta enfrentar nuevos retos y siempre busco seguir aprendiendo y mejorando. Me considero una persona creativa, 
+            con un enfoque analítico y siempre orientada a los resultados. Disfruto del proceso de **[tu enfoque o lo que te apasiona]**, y busco siempre encontrar nuevas formas de innovar en mis proyectos.</p>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Si quieres ponerte en contacto conmigo, puedes enviarme un correo a: ejemplo@correo.com</p>
-    </section>
+            <p>Puedes conocer más sobre mis proyectos y trabajos anteriores en el <a href="#portfolio">portafolio</a>.</p>
+        </section>
+    </div>
 
-    <footer>
-        <p>&copy; 2025 Mi Página Web. Todos los derechos reservados.</p>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
